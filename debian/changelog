@@ -1,5 +1,22 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-ajstarks-svgo (2012-01-27-3) unstable; urgency=medium
 
-  * Initial release
+  * Team upload.
+  * Update Section to golang
+  * Move -dev package to arch all
+  * Remove Built-Using from -dev package
+  * Add Multi-Arch hint
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 05 Feb 2021 00:05:14 +0800
+
+golang-github-ajstarks-svgo (2012-01-27-2) unstable; urgency=medium
+
+  * debhelper-compat 13 (routine-update)
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+
+ -- Andreas Tille <tille@debian.org>  Sat, 11 Jul 2020 00:20:36 +0200
+
+golang-github-ajstarks-svgo (2012-01-27-1) unstable; urgency=medium
+
+  * Initial release (Closes: #964035)
+
+ -- Andreas Tille <tille@debian.org>  Wed, 01 Jul 2020 08:08:23 +0200
