@@ -1,4 +1,34 @@
 #!/usr/bin/make -f
 
+export DH_GOLANG_EXCLUDES := android \
+                             bubtrail \
+                             bulletgraph \
+                             codepic \
+                             colortab \
+                             compx \
+                             f50 \
+                             flower \
+                             fontcompare \
+                             funnel \
+                             gradient \
+                             html5logo \
+                             imfade \
+                             lewitt \
+                             ltr \
+                             paths \
+                             planets \
+                             pmap \
+                             randcomp \
+                             richter \
+                             rl \
+                             skewabc \
+                             stockproduct \
+                             svgdef \
+                             svgopher \
+                             tsg \
+                             vismem \
+                             webfonts \
+                             websvg
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
